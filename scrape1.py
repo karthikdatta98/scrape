@@ -18,7 +18,7 @@ from tqdm import tqdm
 
 def get_driver(download_dir=None):
     if download_dir is None:
-        download_dir = os.path.join(CURRENT_DIR, 'data')
+        download_dir = os.path.join(CURRENT_DIR, 'data')        #once you complete this range of pages, change the doc name for new range.
     link1 = '/Users/kedi/Downloads/chromedriver' #pls paste your link to chrome driver
     options = webdriver.ChromeOptions()
     options.add_experimental_option("prefs", {
